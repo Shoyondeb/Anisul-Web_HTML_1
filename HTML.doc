@@ -16,8 +16,12 @@ All tags:
 4. non-semantic
     <div>, <span>
 5. Text formating
+    -<strong> <em><mark> <del> <sup><sub> <del>
 6. List
-7. Link
+    -Unordered List, ordered list, Definition list, Nested list
+7. Link and Navigation
+    -Absolute link and Relative Link
+    -<a> tag, attribute: href, title, target
 8. Table
 9. form
 10. Deploy
