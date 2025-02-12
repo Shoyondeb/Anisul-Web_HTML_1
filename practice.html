@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <!--Header-->
-   <header>
-    <a href="html1.html">Home</a>
-    <a href="practice.html">Here</a>
-    <a href="Contact.html"></a>
-    <a href="HTML.doc">Doc file</a>
-   </header>
-  <!--Navigation-->
-  <nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skill">Skills</a></li>
+      <header>
+        <a href="Index.html">Home page</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Direction.html">Direction</a>
+      </header>
+      <hr>
+      <h2>Welcome to my portfolio</h2>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#skill">Skill</a></li>
         <li><a href="#project">Project</a></li>
-        <li><a href="#footer">Footer</a></li>
-    </ul>
-    <!--Introduction-->
-    <section id="Introduction">
-        <h2>Introduction</h2>
-        <p><strong>Shoyon Kumar Deb</strong><br>Software Engineer and Lecturer Information and Technology</p>
+        <li><a href="form">Form</a></li>
+      </ul>
+      <section id="introduction"><a href="https://Youtube.com" title="Shoyon" target="_blank"><img src="image/FB_IMG_1665757166131.jpg" alt="Shoyon" width="150px"></a> 
+      <h2>Shoyon Kumar Deb</h2>
+      Software Engineer and Lecturer of ICT 
+      <hr>
+      <h2>About Me</h2>
+      <hr>
+      <p><strong>Experience:</strong>Five Years of Developing Experience</p>
+      <p><strong>Education:</strong>Hon's Fourth year student </p>
     </section>
-    <hr>
-  </nav>
-  <!--About Me-->
-  <section id="about"> 
-    <h2>About Me</h2>
-    <p><strong>Experience:</strong>Five Years Experience for doing job as a web developer<br>
-    <strong>Education: </strong>Fourth Year Student of RTM-AKTU</p><br>
-  </section>
-  <section id="skill">
-    <h2>Skills</h2>
-    <hr>
-    <ul>
+    <section id="skill">
+      <h2>Skills</h2>
+      <hr>
+      <table border="1" cellspacing="0" cellpadding="5px">
+        <tr>
+          <th>Technology</th>
+          <th>Proficiency</th>
+        </tr>
+        <tr><td>
+          HTML
+        </td>
+        <td>Intermediate</td>
+      </tr>
+      <tr>
+         <td>CSS</td>
+         <td>Beginer</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Beginer</td>
+      </tr>
+      </table>
+    </section>
+    <section>
+      <ol>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Java</li>
-        <li>CPP</li>
+        <li>Cpp</li>
         <li>Java Script</li>
-        <ol type="a">
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
+        <ol type="A">
+          <li>React JS</li>
+          <li>Angular JS</li>
+          <li>Node JS</li>
+          <li>Express JS</li>
         </ol>
         <li>Mongo DB</li>
         <li>C</li>
-    </ul>
-    <dl>
-        <dd>HTML</dd>
-        <dt>Hyper Text Markup Language</dt>
-    </dl>
-  </section>
-  <section id="project">
+      </ol>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+      </dl>
+    </section>
+    <section id="project">
     <h2>Projects</h2>
     <hr>
-    <ol>
-        <li><a href="https://Portfolio.com" title="PW" target="_blank">Personal Web</a></li>
-        <li>Web Based Blog</li>
-        <li>Web based social Media apps</li>
+    <ol type="1">
+      <li><a href="https://Personal.com">Personal Web</a></li>
+      <li>Web base blog</li>
+      <li>Web based Social Media apps</li>
     </ol>
   </section>
-  <footer id="footer">
-    <a href="tel:+08801705547756">Call Me</a>
-    <a href="mailto: shoyondeb18246@gmail.com">Email</a>
-  </footer>
+  <section id="form">
+    <div><label for="name">Name:</label>
+      <input type="text" id="name"></div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea name="msg" id="msg"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+  </section>
+  <a href="tel:+8801795547756">Call Me</a>
+  <a href="mailto:shoyondeb18246@gmail.com">Email</a>
+  <br>
+  &copy;Warning
 </body>
 </html>
