@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Shoyon Deb,portfolio, html, personal, shoyon">
+
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Intermediate</title>
+
+    <!--Google font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: "Roboto", serif;
+    }
+</style>
+</head>
+<main>
+    <header>
+        <a href="Basic.html">Home</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Direction.html">Find Location</a>
+    </header>
+    <section id="start">
+        <h2>Welcome to my portfolio website</h2>
+        <!--Navigation around the web page-->
+        <ul>
+            <li><a href="#introduction">introduction</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </section>
+    <section id="introduction">
+        <img src="image/FB_IMG_1665757166131.jpg" width="150px" alt="Shoyon Deb">
+        <h2>Shoyon Kumar Deb</h2>
+        <p>Software Engineer and Lecturer of ICT</p> 
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p><strong>Experience:</strong>Five years development Experience</p>
+        <p><strong>Education:</strong>Fourth Year student of CSE depart at RTM-AKTU</p>
+    </section>
+    <div id="skill">
+        <h2>SKills</h2>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+            <td>CSS</td>
+            <td rowspan="2">Beginer</td>
+            </tr>
+            <tr>
+                <td>Java Script</td> 
+            </tr>
+        </table>
+        <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java
+                <ul>
+                    <li>Node js.</li>
+                    <li>Express js.</li>
+                    <li>Angular js</li>
+                    <li>React js</li>
+                </ul>
+            </li>
+            <li>C++</li>
+            <li>Mongo DB</li> 
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+        </dl>
+
+        <!--Progress bar-->
+        <div><label for="html">HTML: </label>
+        <progress id="html" value="40" max="100"></progress></div>
+        <div>
+            <label for="css">CSS: </label>
+            <progress id="css" value="30" max="100">CSS</progress>
+            
+        </div>
+        <div>
+            <label for="JS">JS: </label>
+            <progress id="JS" max="100" value="10"></progress>
+        </div>
+        <div>
+            <h3>Overall Experience: 
+            <meter value="10" max="20"></meter></h3>
+        </div>
+    </section>
+    <section id="project">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://Personal.com">Web portfolio</a></li>
+            <li>Web based Game</li>
+            <li>E-commerce web site</li>
+        </ul>
+    </section>
+    <section>
+        <video width="200px" controls>
+            <source src="video/presentation.mp4">
+        </video>
+    </section> 
+    <section id="form">
+        <h2>Feedback Form</h2>
+        <form action="https://formspree.io/f/xyzkdowb"
+        method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="phone" >Phone Number:</label>
+            <select name="phone" id="phone">
+                <option value="+088">+088</option>
+                <option value="+99">+990</option>
+            </select>
+            <input type="tel" id="phone" required>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required>
+        </div>
+         <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="18" max="59" required>
+         </div>
+         <div>
+            <label for="website">Website: </label>
+            <input type="url" id="website" name="website">
+         </div>
+         <div>
+            <label for="time">Time: </label>
+            <input type="time" id="time" name="time">
+         </div>
+         <div>
+            <label for="color">Favorite Color: </label>
+            <input type="color">
+         </div>
+         <div>
+            <label for="image">Image</label>
+            <input type="file" accept="image/*" id="image" name="image">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="Inquiry">Inquiry</option>
+                <option value="Complain">Complain</option>
+                <option value="Job check">Job Check</option>
+            </select>
+        </div> 
+        <div>
+            <label for="msg">Message:</label>
+            <textarea name="msg" id="msg" placeholder="Write about this project"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    </section>
+    <section id="connect">
+        <ul></ul>
+        <li><a href="tel:01795547756"><i class="fa-solid fa-phone"> Call</i></a></li>
+        <li> <a href="mailto:shoyondeb18246@gmail.com"><i class="fa-regular fa-envelope"> Email</i></a></li>
+        <li><a href="https://facebook.com"><i class="fa-brands fa-facebook"> Facebook</i></a></li>
+        <li><a href="https://linkedin/shoyondeb"><i class="fa-brands fa-linkedin"> Linkedin</i></a></li>
+
+    </section>
+</main>
+    &hearts; From Shoyon <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7079.068086630293!2d115.82495825635068!3d-32.06796548521321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a2beda13da81%3A0x8afb831e14ef14da!2sMurdoch%20University!5e1!3m2!1sen!2sbd!4v1739474147423!5m2!1sen!2sbd" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

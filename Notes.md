@@ -7,6 +7,8 @@ All tags:
 <h1> <p> <br> <hr>
 
 //Learning start from here
+
+## Basic HTML
 1. HTML Basic Structure
     -attribute, Element, content
     -comment
@@ -28,4 +30,13 @@ All tags:
 11. Entity
     -unicode.com
 11. Deploy
+
+##Intermediate HTML
+1. Meta tag and SEO
+2. Adding font-awesome icons and google font
+3. advanced table
+4. form data send to your email
+5. multimedia
+6. HTML5 elements
+    -progress bar
     
